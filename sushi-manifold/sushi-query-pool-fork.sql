@@ -1,3 +1,5 @@
+--  Forked from @hildobby's query for sushi WETH-USDC pair https://dune.com/queries/490691/930275
+
 WITH pool_contract AS (SELECT ('\' || RIGHT('\x397ff1542f962076d0bfe58ea045ffa2d347aca0', -1))::bytea AS pc),
     aggregation AS (SELECT 'day'AS a),
 
